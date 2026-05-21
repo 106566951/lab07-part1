@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-    meta charset = "utf-8"/>
-    <title>Using PHP variables, arrays and operators </title>
-
+    <meta charset="utf-8"/>
+    <title>Using PHP variables, arrays and operators</title>
 </head>
 <body>
-    <h1>Days of the week</h1>
-    <php
-
-    $days =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday" ];
+    <h1>PHP Variables, Arrays and Operators</h1>
+    <?php
+    $days_english = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    $days_french  = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+ 
+    echo "<p>The days of the week in English are:<br/>";
+    echo implode(", ", $days_english) . ".</p>";
+ 
+    echo "<p>The days of the week in French are:<br/>";
+    echo implode(", ", $days_french) . ".</p>";
+    ?>
+</body>
+</html>
