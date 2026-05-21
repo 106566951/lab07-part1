@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8">
     <title>Using PHP variables, arrays and operators</title>
 </head>
 <body>
@@ -10,10 +10,10 @@
     $days_english = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     $days_french  = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
  
-    echo "<p>The days of the week in English are:<br/>";
+    echo "<p>The days of the week in English are:<br>";
     echo implode(", ", $days_english) . ".</p>";
  
-    echo "<p>The days of the week in French are:<br/>";
+    echo "<p>The days of the week in French are:<br>";
     echo implode(", ", $days_french) . ".</p>";
     ?>
 </body>
